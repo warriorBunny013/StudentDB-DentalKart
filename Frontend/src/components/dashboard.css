@@ -1,0 +1,81 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.dashboard{
+ display: flex;
+ flex-direction: column;
+ margin: 5rem 10rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-block: 2rem;
+    flex-wrap: wrap;
+}
+h1{
+    color:#121212;
+}
+p{
+    margin-top: 4px;
+    color: #7D8398;
+}
+
+.import,.export{
+    cursor:pointer;
+    padding-inline: 1rem;
+    padding-block: 0.8rem;
+    margin-left: 10px;
+    border: 1px solid rgba(125, 131, 152, 0.3);
+    box-shadow: 0px 3px 6px rgba(18, 18, 18, 0.03);
+    border-radius: 6px;
+    font-size: medium;
+    font-weight:bolder;
+}
+.import{
+    background: #FFFFFF;
+    border: 1px solid rgba(125, 131, 152, 0.5);
+    box-shadow: 0px 3px 6px rgba(18, 18, 18, 0.03);
+    color:#121212;
+}
+.export{
+    color:#FFFFFF;
+    background-color: #121212;
+}
+.exportLogo{
+  width: 10%;
+  margin-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    line-height: 1.5rem;
+  }
+th, td {
+    text-align: left;
+    padding: 1.5rem;
+  }
+th {
+    background: #F4F0FF;
+    border-bottom: 1px solid #EEEAF5;
+    color:#121212;
+  }
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 930px) {
+    p{
+        padding: 0.5rem;
+    }
+  }
+@media screen and (max-width: 700px) {
+    .dashboard{
+        margin:0 0;
+    }
+  }
