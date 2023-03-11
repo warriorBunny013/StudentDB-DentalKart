@@ -1,5 +1,9 @@
 # StudentDB-DentalKart
+## Technologies Used:
 
+- Backend : NodeJs,ExpressJs
+- Frontend : ReactJs
+- Database : MySQL(Check "auth_db" file in Backend folder for the schema)
 
 ## For Backend
 
