@@ -1,4 +1,6 @@
 # StudentDB-DentalKart
+features: Admin authentication, Student data base export into .csv file
+
 ## Technologies Used:
 
 - Backend : NodeJs,ExpressJs
